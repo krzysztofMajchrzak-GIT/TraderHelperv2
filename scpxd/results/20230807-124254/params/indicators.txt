@@ -1,0 +1,10 @@
+Tenkan_sen
+Kijun_sen
+Senkou_span_a
+Senkou_span_b
+Chikou_span
+Aroon_Up
+Aroon_Down
+Aroon_Oscillator
+long
+short

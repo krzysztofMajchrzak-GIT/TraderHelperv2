@@ -1,0 +1,142 @@
+Traceback (most recent call last):
+  File "/home/kmajchrzak/Desktop/tradeUI/backend/manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kmajchrzak/Desktop/tradeUI/backend/manage.py", line 22, in <module>
+    main()
+  File "/home/kmajchrzak/Desktop/tradeUI/backend/manage.py", line 13, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+2024-01-30 19:26:58.918428: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-01-30 19:26:59.874364: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-01-30 19:27:00.977647: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-01-30 19:27:03.889835: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-01-30 19:27:05.859628: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-01-30 19:27:05.861290: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-01-30 19:27:05.864420: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-01-30 19:27:05.864748: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-01-30 19:27:05.865605: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-01-30 19:27:06.870117: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-01-30 19:27:06.870453: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-01-30 19:27:06.870643: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-01-30 19:27:06.870805: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1635] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 4081 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3060 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+2024-01-30 19:27:07.133391: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2024-01-30 19:27:07.133881: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2024-01-30 19:27:07.134337: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2024-01-30 19:27:07.187614: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/ReverseV2_grad/ReverseV2/ReverseV2/axis' with dtype int32 and shape [1]
+	 [[{{node gradients/ReverseV2_grad/ReverseV2/ReverseV2/axis}}]]
+2024-01-30 19:27:07.206108: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2024-01-30 19:27:07.206609: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2024-01-30 19:27:07.207058: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2024-01-30 19:27:07.286783: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2024-01-30 19:27:07.287290: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2024-01-30 19:27:07.287776: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2024-01-30 19:30:03.949248: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2024-01-30 19:30:03.949746: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2024-01-30 19:30:03.950221: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2024-01-30 19:30:04.005496: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/ReverseV2_grad/ReverseV2/ReverseV2/axis' with dtype int32 and shape [1]
+	 [[{{node gradients/ReverseV2_grad/ReverseV2/ReverseV2/axis}}]]
+2024-01-30 19:30:04.024090: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2024-01-30 19:30:04.024562: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2024-01-30 19:30:04.025044: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2024-01-30 19:30:04.098043: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2024-01-30 19:30:04.098539: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2024-01-30 19:30:04.098991: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2024-01-30 19:30:05.558188: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:637] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2024-01-30 19:30:05.859369: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:424] Loaded cuDNN version 8600
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 5s 5s/step
+2024-01-30 19:30:08.369665 0 1009.1298995000001
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 26ms/step
+2024-01-30 19:40:01.691566 0.42471 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 12ms/step
+2024-01-30 19:50:02.842255 0.42471 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 20:00:02.508554 0.42471 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 20:10:02.049760 0.42471 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 20:20:01.509312 0 1007.5735098
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd7541ba0d0>: Failed to establish a new connection: [Errno 113] No route to host'))
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd7d0d7cb50>: Failed to establish a new connection: [Errno 113] No route to host'))
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd7541847c0>: Failed to establish a new connection: [Errno 113] No route to host'))
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd7d0d7cb80>: Failed to establish a new connection: [Errno 113] No route to host'))
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492&endTime=1706583000000 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd7541ba550>: Failed to establish a new connection: [Errno 113] No route to host'))
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492&endTime=1706583000000 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd7d0d7c910>: Failed to establish a new connection: [Errno 113] No route to host'))
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492&endTime=1706583000000 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd7541847c0>: Failed to establish a new connection: [Errno 113] No route to host'))
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492&endTime=1706583000000 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd754194370>: Failed to establish a new connection: [Errno 113] No route to host'))
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492&endTime=1706583000000 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd754185a60>: Failed to establish a new connection: [Errno 113] No route to host'))
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 20:30:02.920025 0 1007.5735098
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 20:40:03.633282 0 1007.5735098
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 20:50:03.223250 0 1007.5735098
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 12ms/step
+2024-01-30 21:00:01.208083 0 1007.5735098
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 12ms/step
+2024-01-30 21:10:02.687601 0.42344 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 12ms/step
+2024-01-30 21:20:01.619390 0.42344 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 21:30:01.632048 0.42344 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 21:40:01.529104 0 1008.0327951999999
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 21:50:02.815398 0 1008.0327951999999
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 22:00:02.626142 0 1008.0327951999999
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 22:10:03.100721 0 1008.0327951999999
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 22:20:01.630214 0 1008.0327951999999
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 12ms/step
+2024-01-30 22:30:01.679280 0.4229 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 22:40:02.680891 0.4229 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 22:50:02.918880 0.4229 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 23:00:03.182868 0.4229 0
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 23:10:01.186932 0 1004.9203540000001
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 15ms/step
+2024-01-30 23:20:01.744805 0 1004.9203540000001
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 14ms/step
+2024-01-30 23:30:03.447392 0 1004.9203540000001
+HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=ETHUSDT&interval=1m&limit=1492 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd75410bee0>: Failed to establish a new connection: [Errno 113] No route to host'))
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 23:40:02.239989 0 1004.9203540000001
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-30 23:50:01.248002 0 1004.9203540000001
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-31 00:00:01.428117 0 1004.9203540000001
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-31 00:10:01.976665 0 1004.9203540000001
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-31 00:20:06.925583 0 1004.9203540000001
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 13ms/step
+2024-01-31 00:30:02.248316 0 1004.9203540000001
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 12ms/step

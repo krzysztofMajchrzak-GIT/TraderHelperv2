@@ -1,0 +1,21 @@
+{
+    "filename": "data/binance_eth.csv",
+    "nr_of_labels": 2,
+    "modifier": 0.0007,
+    "window_size": 144,
+    "num_features": 4,
+    "batch_size": 32,
+    "epochs": 2000,
+    "initial_learning_rate": 0.00001,
+    "filter_size": 16,
+    "external_filter_size": 32,
+    "l2_reg": 0.01,
+    "bidirectional": true,
+    "interval": "15T",
+    "train_size": 0.8,
+    "validation_size": 0.1,
+    "test_size": 0.1,
+    "es_patience": 50,
+    "gru": false  
+}
+

@@ -1,0 +1,20 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ bidirectional (Bidirectiona  (32, 144, 50)            5250      
+ l)                                                              
+                                                                 
+ batch_normalization (BatchN  (32, 144, 50)            200       
+ ormalization)                                                   
+                                                                 
+ bidirectional_1 (Bidirectio  (32, 40)                 8640      
+ nal)                                                            
+                                                                 
+ dense (Dense)               (32, 2)                   82        
+                                                                 
+=================================================================
+Total params: 14,172
+Trainable params: 14,072
+Non-trainable params: 100
+_________________________________________________________________

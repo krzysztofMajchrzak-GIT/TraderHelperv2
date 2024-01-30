@@ -1,0 +1,19 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv1d (Conv1D)             (None, 72, 16)            32        
+                                                                 
+ multi_scale_residual_block   (None, 72, 2048)         1920      
+ (MultiScaleResidualBlock)                                       
+                                                                 
+ bidirectional (Bidirectiona  (None, 10)               82160     
+ l)                                                              
+                                                                 
+ dense (Dense)               (None, 2)                 22        
+                                                                 
+=================================================================
+Total params: 84,134
+Trainable params: 84,134
+Non-trainable params: 0
+_________________________________________________________________

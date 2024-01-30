@@ -1,0 +1,8 @@
+Coppock
+RSI
+StochRSI
+ROC
+MACD
+Aroon_Up
+Aroon_Down
+Aroon_Oscillator

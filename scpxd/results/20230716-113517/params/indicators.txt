@@ -1,0 +1,9 @@
+Coppock
+RSI
+ROC
+MACD
+Sen
+Kumo
+OBV
+long
+short

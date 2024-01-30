@@ -1,0 +1,4 @@
+RSI
+MACD
+long
+short

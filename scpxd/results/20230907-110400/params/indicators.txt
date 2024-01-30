@@ -1,0 +1,4 @@
+RSI
+StochRSI
+ROC
+Aroon_Oscillator

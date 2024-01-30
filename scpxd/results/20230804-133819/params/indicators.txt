@@ -1,0 +1,7 @@
+Coppock
+RSI
+StochRSI
+ROC
+MACD
+long
+short

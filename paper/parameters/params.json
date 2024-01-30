@@ -1,0 +1,13 @@
+{
+    "ma_period": 14,
+    "wma_period": 14,
+    "mom_period": 10,
+    "stochastic_k_period": 10,
+    "stochastic_d_period": 10,
+    "williams_period": 10,
+    "rsi_period": 10,
+    "interval": "1H",
+    "train_size": 0.8,
+    "validation_size": 0.2,
+    "window": 24
+}

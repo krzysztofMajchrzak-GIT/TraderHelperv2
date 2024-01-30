@@ -1,0 +1,5 @@
+Best model had time = 30T and window size of a 72 and modifier of 0.0008
+
+25 20 not 30 25
+
+droput was 2
